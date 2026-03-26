@@ -150,7 +150,18 @@
         },
         {
           "week": 9,
-          "topic": "3/30 Autonomous Agents & Memory",
+          "topic": "3/30 Plan then Execute",
+          "desc": "Moving to a different agnetic structure: planning and execution",
+          "readings": [
+            { "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models", "author": "Wang et al. (2023)", "url": "https://arxiv.org/abs/2305.04091" },
+            { "title": "An LLM Compiler for Parallel Function Calling", "author": "Kim et al. (2023)", "url": "https://arxiv.org/abs/2312.04511"  },
+            { "title": "ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models", "author": "Xu er al. (2023)", "url": "https://arxiv.org/abs/2305.18323" },
+             { "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks", "author": "Erdogan er al. (2025)", "url": "https://arxiv.org/abs/2503.09572" }
+          ]
+        },
+        {
+          "week": 9,
+          "topic": "4/6 Autonomous Agents & Memory",
           "desc": "Persisting state over time. The 'Smallville' architecture.",
           "readings": [
             { "title": "Generative Agents: Simulacra of Human Behavior", "author": "Park et al. (2023)" },
