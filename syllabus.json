@@ -160,11 +160,11 @@
           ]
         },
         {
-          "week": 9,
+          "week": 10,
           "topic": "4/6 Autonomous Agents & Memory",
           "desc": "Persisting state over time. The 'Smallville' architecture.",
           "readings": [
-            { "title": "Generative Agents: Simulacra of Human Behavior", "author": "Park et al. (2023)" },
+            { "title": "Generative Agents: Simulacra of Human Behavior", "author": "Park et al. (2023)", "url": "https://arxiv.org/abs/2304.03442" },
             { "title": "Voyager: Open-Ended Embodied Agent", "author": "Wang et al. (2023)" },
             { "title": "LLM Powered Autonomous Agents", "author": "Lilian Weng (2023)", "note": "Survey Blog" }
           ]
