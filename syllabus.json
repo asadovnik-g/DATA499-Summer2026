@@ -170,12 +170,12 @@
           ]
         },
         {
-          "week": 10,
-          "topic": "4/6 Multi-Agent Systems",
-          "desc": "Social behavior and collaboration between synthetic minds.",
+          "week": 11,
+          "topic": "4/13 Coding Agents",
+          "desc": "Understanding the basic structure of coding agents.",
           "readings": [
-            { "title": "CAMEL: Communicative Agents", "author": "Li et al. (2023)" },
-            { "title": "ChatDev: Communicative Agents for Software Dev", "author": "Qian et al. (2023)" }
+            { "title": "Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned", "author": "Bui (2026)", "note": "Up to Section 2.3", "url": "https://arxiv.org/abs/2603.05344" },
+            { "title": "Small Language Models are the Future of Agentic AI", "author": "Belcak et al. (2025)", "url": "https://arxiv.org/abs/2506.02153" }
           ]
         }
       ]
