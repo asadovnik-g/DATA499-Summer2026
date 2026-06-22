@@ -53,19 +53,19 @@
       "theme": "foundations",
       "weeks": [
         {
-          "week": 1,
+          "week": "1",
           "topic": "Idenitfying Project",
           "desc": "Selecting capstone idea and getting faculty approval."
         },
         {
-          "week": 2,
+          "week": "2a",
           "topic": "Requirement Idenitifcation",
           "desc": "Students will develop a clear requirements specification and description of the project."
         },
         {
-          "week": 2,
+          "week": "2b",
           "topic": "Implementation Plan",
-          "desc": " The group work out the plans of: a) how to proceed with the implementation; b) how to distribute the work; c) what data and information to gather; d) what programming language/software to use; e) what APIs to use, if any; f) how to test application."
+          "desc": "a) work plan; b) work division c) datasets d) programming language/software e) how to test application."
         }
       ]
     },
@@ -74,8 +74,8 @@
       "theme": "eval",
       "weeks": [
         {
-          "week": 3,
-          "topic": "Plan Execution'",
+          "week": "3-6",
+          "topic": "Plan Execution",
           "desc": "Continuing work on the Capstone according to the above plan. Students must meet weekly with the professor to discuss interim results and get feedback and suggestions from the professor."
         }
       ]
@@ -85,9 +85,9 @@
       "theme": "reasoning",
       "weeks": [
         {
-          "week": 7,
+          "week": "7-8",
           "topic": "Project Testing, submission, and presenation",
-          "desc": "Complete testing, submittal of the final write-up, including finished product. Every group presents their project to the rest of the class, and every student of the group is required to participate in the presentation."
+          "desc": "Complete testing, submittal of the final write-up, including finished product. Every group presents their project to the rest of the class."
         }
       ]
     }
