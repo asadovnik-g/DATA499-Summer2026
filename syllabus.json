@@ -55,11 +55,7 @@
         {
           "week": 1,
           "topic": "Idenitfying Project",
-          "desc": "Selecting capstone idea and getting faculty approval.",
-          "readings": [
-              { "title": "Scaling Laws for Neural Language Models", author: "Kaplan et al. (2020)" },
-              { "title": "Training Compute-Optimal Large Language Models", author: "Hoffmann et al. (2022)" }
-          ]
+          "desc": "Selecting capstone idea and getting faculty approval."
         },
         {
           "week": 2,
