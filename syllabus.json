@@ -20,7 +20,7 @@
   ],
   "policies": {
     "submission": "All work must be submitted via Canvas. These will usually be by 11:59 PM EST on the due date. Late submissions will not be accepted. While some assignments will be independent others will be done in groups",
-    "honesty": "Students are allowed to use LLMs (ChatGPT, Claude, etc.) as coding assistants, but must disclose their usage. Also, students must make sure they understand all code they have written. Plagiarism of academic papers or other students' work will result in immediate failure.",
+    "honesty": "Students are allowed to use LLMs (ChatGPT, Claude, etc.) as coding assistants, but must disclose their usage. Also, students must make sure they understand all code they have written. Plagiarism of academic papers or other students work will result in immediate failure.",
     "attendance": "This is a seminar-style course. Active participation is required. Attendance is expected. Please read all assigned readings *before* class.",
     "additional": "Please make sure to find out the last day to drop/withdraw from the course if needed. For campus-wide policies on disability accommodations and mental health resources, please visit https://teaching.utk.edu/wp-content/uploads/sites/78/2026/01/Campus-Syllabus-Updated-1-8-26.2.docx"
   },
@@ -55,13 +55,13 @@
         {
           "week": 1,
           "topic": "Idenitfying Project",
-          "desc": "Selecting capstone idea and getting faculty approval.",
+          "desc": "Selecting capstone idea and getting faculty approval."
         },
         {
           "week": 2,
           "topic": "Requirement Idenitifcation",
           "desc": "Students will develop a clear requirements specification and description of the project."
-        }
+        },
         {
           "week": 2,
           "topic": "Implementation Plan",
@@ -74,7 +74,7 @@
       "theme": "eval",
       "weeks": [
         {
-          "week": 3-6,
+          "week": 3,
           "topic": "Plan Execution'",
           "desc": "Continuing work on the Capstone according to the above plan. Students must meet weekly with the professor to discuss interim results and get feedback and suggestions from the professor."
         }
@@ -85,10 +85,10 @@
       "theme": "reasoning",
       "weeks": [
         {
-          "week": 7-8,
+          "week": 7,
           "topic": "Project Testing, submission, and presenation",
           "desc": "Complete testing, submittal of the final write-up, including finished product. Every group presents their project to the rest of the class, and every student of the group is required to participate in the presentation."
-        },
+        }
       ]
     }
   ]
