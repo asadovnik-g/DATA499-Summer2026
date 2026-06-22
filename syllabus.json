@@ -1,223 +1,94 @@
 {
-  "title": "Advanced LLMs",
-  "subtitle": "Reasoning, Agents, and the Structure of Intelligence",
-  "description": "An advanced course that will dig deepet into the current trends in LLM development including reasoning and agents, and provide better understanding of the strengths and limitations of current AI.",
+  "title": "Data Science Capstone",
+  "subtitle": "DATA 399",
+  "description": "The Capstone course is designed to provide students in the College of Emerging and Collaborative Studies with an opportunity to apply knowledge, skills, and methodologies from their studies to a significant, independent project, while working in interdisciplinary teams of 3-4 students. ",
   "instructor": {
     "name": "Dr. Amir Sadovnik",
     "role": "Instructor",
     "bio": "Dr. Sadovnik is the Research Lead for the newly established Center for AI Security Research (CAISER) at Oak Ridge National Lab. As part of this role, Dr. Sadovnik leads multiple research projects related to AI risk, adversarial AI, and large language model vulnerabilities.",
-    "office": "Min Kao Building, Room 607",
-    "hours": "Monday 4:00-5:00",
+    "office": "Online",
+    "hours": "TBD",
     "email": "asadovnik@utk.edu",
     "image": "https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2023-09/2023-P00821_0.jpg"
   },
   "learningOutcomes": [
-    "Gain a deeper understanding of how LLMs operate including their strengths, limitations, and security risks.",
-    "Gain competence in using LLMs with common frameworks both locally and on the cloud",
-    "Understand the basics of LLM reasoning, hallucinations, and interpretability.",
-    "Understand and design LLM based autonomous agentic systems and using common frameworks.",
-    "Implement and benchmark LLMs on a novel task and right a academic level paper on you resutls."
+    "Conduct independent research or a creative project in their field of study.",
+    "Integrate and apply theoretical knowledge to real-world issues or professional scenarios.",
+    "Develop a well-structured final project that demonstrates subject expertise.",
+    "Communicate project findings eﬀectively, both in written and oral formats.",
+    "Collaborate with peers and receive feedback constructively."
   ],
   "policies": {
     "submission": "All work must be submitted via Canvas. These will usually be by 11:59 PM EST on the due date. Late submissions will not be accepted. While some assignments will be independent others will be done in groups",
     "honesty": "Students are allowed to use LLMs (ChatGPT, Claude, etc.) as coding assistants, but must disclose their usage. Also, students must make sure they understand all code they have written. Plagiarism of academic papers or other students' work will result in immediate failure.",
-    "attendance": "This is a seminar-style course. Active participation is required. Attendance is expected. Please read all assigned papers *before* class.",
+    "attendance": "This is a seminar-style course. Active participation is required. Attendance is expected. Please read all assigned readings *before* class.",
     "additional": "Please make sure to find out the last day to drop/withdraw from the course if needed. For campus-wide policies on disability accommodations and mental health resources, please visit https://teaching.utk.edu/wp-content/uploads/sites/78/2026/01/Campus-Syllabus-Updated-1-8-26.2.docx"
   },
   "assignments": [
     {
-      "title": "Quizes/Exam",
+      "title": "Status Updates",
       "weight": "20%",
       "icon": "file",
-      "desc": "Every few classes we will start with a few questions that'll cover last week's class. We will probably have a longer one later in the semester as well."
+      "desc": "Every week you will be required to present a few slides of the progress made that week. A template for that will be provided."
     },
     {
-      "title": "Final Project",
-      "weight": "60%",
-      "icon": "flask-conical",
-      "desc": "Novel research implementation or reproduction of a SOTA result. Groups of 3-4. Requires quantitative evaluation metrics."
-    },
-    {
-      "title": "Homeworks",
+      "title": "Project Posts",
       "weight": "20%",
+      "icon": "flask-conical",
+      "desc": "Every three weeks you will be requires to write a longer update of the challenges you faced and how you solved them. Format will be discussed in class."
+    },
+    {
+      "title": "Senior Project",
+      "weight": "60%",
       "icon": "users",
-      "desc": "On time and correct submission of assignments. All assignments will be posted on Canvas."
+      "desc": "Most of the class will revolve around your final senior project. The final submission will include an oral presentation, a website, and a report."
     }
   ],
   "logistics": {
-    "prereqs": ["Deep Learning Foundations", "Natural Language Processing", "Python Proficiency"]
+    "prereqs": ["DATA 301", "DATA 302", "(let me know if you have not done those)"]
   },
   "schedule": [
     {
-      "part": "Part I: Foundations & Architecture",
+      "part": "Part I: Capstone Project Setup",
       "theme": "foundations",
       "weeks": [
         {
           "week": 1,
-          "topic": "1/26 Deep Learning Basics",
-          "desc": "Understanding the basics of artificial neural networks - the backbone of LLMS - including basic math.",
-          "readings": [
-            { "title": "The Math Behind Neural Networks", "author": "Cristian Leo (2024)", "note": "A website with a brief overview of neural networks", "url": "https://towardsdatascience.com/the-math-behind-neural-networks-a34a51b93873/" }
-          ]
+          "topic": "Idenitfying Project",
+          "desc": "Selecting capstone idea and getting faculty approval.",
         },
         {
-          "week": 2,
-          "topic": " 2/2 The Transformer and LLMs",
-          "desc": "A deeper dive into the transformer architecture and basics of LLM's.",
-          "readings": [
-            { "title": "Attention Is All You Need", "author": "Vaswani et al. (2017)", "note": "The foundation", "url": "https://arxiv.org/abs/1706.03762"  },
-            { "title": "The Illustrated Transformer", "author": "Jay Alammar (2018)", "note": "A website with a good description of transformers", "url": "https://jalammar.github.io/illustrated-transformer/" },
-            { "title": "A Beginner’s Guide to Tokens, Vectors, and Embeddings in NLP", "author": "Sascha Metzger (2022)", "note": "A website with a overview of tokenization and embedding", "url": "https://medium.com/@saschametzger/what-are-tokens-vectors-and-embeddings-how-do-you-create-them-e2a3e698e037" }
-            
-          ]
+          "week": 2a,
+          "topic": "Requirement Idenitifcation",
+          "desc": "Students will develop a clear requirements specification and description of the project."
+        }
+        {
+          "week": 2b,
+          "topic": "Implementation Plan",
+          "desc": " The group work out the plans of: a) how to proceed with the implementation; b) how to distribute the work; c) what data and information to gather; d) what programming language/software to use; e) what APIs to use, if any; f) how to test application."
         }
       ]
     },
     {
-      "part": "Part II: Evaluation & Measurement",
+      "part": "Part II: Capstone Project Execution",
       "theme": "eval",
       "weeks": [
         {
-          "week": 3,
-          "topic": "2/9 Benchmarks & 'LLM-as-a-Judge'",
-          "desc": "Moving beyond perplexity. How do we measure intelligence without contamination.",
-          "readings": [
-            { "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal", "author": "Hendrycks et al. (2024)", "url": "https://arxiv.org/abs/2402.04249" },
-            { "title": "Holistic Evaluation of Language Models (HELM) pages 1-10", "author": "Liang et al. (2022)", "url": "https://arxiv.org/abs/2211.09110" },
-            { "title": "An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability", "author": "Yamauchi et al. (2025)", "url": "https://arxiv.org/abs/2506.13639" }
-          ]
+          "week": 3-6,
+          "topic": "Plan Execution'",
+          "desc": "Continuing work on the Capstone according to the above plan. Students must meet weekly with the professor to discuss interim results and get feedback and suggestions from the professor."
         }
       ]
     },
     {
-      "part": "Part III: Reasoning",
+      "part": "Part III: Capston Project Presenation",
       "theme": "reasoning",
       "weeks": [
         {
-          "week": 5,
-          "topic": "2/23 Chain-of-Thought Reasoning",
-          "desc": "Eliciting reasoning through intermediate computation steps.",
-          "readings": [
-            { "title": "Chain-of-Thought Prompting Elicits Reasoning", "author": "Wei et al. (2022)", "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf" },
-            { "title": "Self-Consistency Improves Chain of Thought", "author": "Wang et al. (2022)", "url": "https://openreview.net/pdf?id=1PL1NIMMrw" },
-            { "title": "Measuring Faithfulness in Chain-of-Thought Reasoning", "author": "Lanham et al. (2023)", "url": "https://www-cdn.anthropic.com/827afa7dd36e4afbb1a49c735bfbb2c69749756e/measuring-faithfulness-in-chain-of-thought-reasoning.pdf" }
-          ]
+          "week": 7-8,
+          "topic": "Project Testing, submission, and presenation",
+          "desc": "Complete testing, submittal of the final write-up, including finished product. Every group presents their project to the rest of the class, and every student of the group is required to participate in the presentation."
         },
-        {
-          "week": 6,
-          "topic": "3/2 Advanced Reasoning Structures",
-          "desc": "Non-linear exploration of solution spaces: Trees and Graphs.",
-          "readings": [
-            { "title": "Tree of Thoughts: Deliberate Problem Solving", "author": "Yao et al. (2023)" ,"url": "https://arxiv.org/pdf/2305.10601"},
-            { "title": "Graph of Thoughts: Solving Elaborate Problems", "author": "Besta et al. (2023)","url": "https://arxiv.org/abs/2308.09687" },
-            { "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning", "author": "DeepSeek-AI (2005)", "url": "https://arxiv.org/pdf/2501.12948"}
-          ]
-        },
-        {
-          "week": 7,
-          "topic": "3/9 Self-Correction & Recursion",
-          "desc": "Can models fix their own mistakes? The limits of verification.",
-          "readings": [
-            { "title": "Large Language Models Can Self-Improve", "author": "Huang et al. (2022)" },
-            { "title": "Self-Refine: Iterative Refinement with Self-Feedback", "author": "Madaan et al. (2023)" },
-            { "title": "Large Language Models Cannot Self-Correct Reasoning Yet", "author": "Valmeekam et al. (2023)", "note": "Counter-point" }
-          ]
-        },
-        {
-          "week": 7,
-          "topic": "3/16 The Mirage of Reasoning",
-          "desc": "Critical analysis: Pattern matching vs. true logic.",
-          "readings": [
-            { "title": "Faith and Fate: Limits on Compositionality", "author": "Dziri et al. (2023)" },
-            { "title": "The Reversal Curse", "author": "Berglund et al. (2023)" }
-          ]
-        }
-      ]
-    },
-    {
-      "part": "Part IV: Agents & Tool Use",
-      "theme": "agents",
-      "weeks": [
-        {
-          "week": 8,
-          "topic": "3/23 Foundations of Agency (ReAct)",
-          "desc": "From text-in/text-out to Observation-Thought-Action loops.",
-          "readings": [
-            { "title": "ReAct: Synergizing Reasoning and Acting", "author": "Yao et al. (2022)", "url": "https://arxiv.org/abs/2210.03629" },
-            { "title": "Toolformer: Models Can Teach Themselves Tools", "author": "Schick et al. (2023)", "url": "https://arxiv.org/abs/2302.04761" },
-            { "title": "Gorilla: Connected with Massive APIs", "author": "Patil et al. (2023)", "url": "https://arxiv.org/abs/2305.15334"  }
-          ]
-        },
-        {
-          "week": 9,
-          "topic": "3/30 Plan then Execute",
-          "desc": "Moving to a different agnetic structure: planning and execution",
-          "readings": [
-            { "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models", "author": "Wang et al. (2023)", "url": "https://arxiv.org/abs/2305.04091" },
-            { "title": "An LLM Compiler for Parallel Function Calling", "author": "Kim et al. (2023)", "url": "https://arxiv.org/abs/2312.04511"  },
-            { "title": "ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models", "author": "Xu er al. (2023)", "url": "https://arxiv.org/abs/2305.18323" },
-             { "title": "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks", "author": "Erdogan er al. (2025)", "url": "https://arxiv.org/abs/2503.09572" }
-          ]
-        },
-        {
-          "week": 10,
-          "topic": "4/6 Autonomous Agents & Memory",
-          "desc": "Persisting state over time. The 'Smallville' architecture.",
-          "readings": [
-            { "title": "Generative Agents: Simulacra of Human Behavior", "author": "Park et al. (2023)", "url": "https://arxiv.org/abs/2304.03442" },
-            { "title": "Voyager: Open-Ended Embodied Agent", "author": "Wang et al. (2023)" },
-            { "title": "LLM Powered Autonomous Agents", "author": "Lilian Weng (2023)", "note": "Survey Blog" }
-          ]
-        },
-        {
-          "week": 11,
-          "topic": "4/13 Coding Agents",
-          "desc": "Understanding the basic structure of coding agents.",
-          "readings": [
-            { "title": "Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned", "author": "Bui (2026)", "note": "Up to Section 2.3", "url": "https://arxiv.org/abs/2603.05344" },
-            { "title": "Small Language Models are the Future of Agentic AI", "author": "Belcak et al. (2025)", "url": "https://arxiv.org/abs/2506.02153" }
-          ]
-        }
-      ]
-    },
-    {
-      "part": "Part V: Structure of Intelligence",
-      "theme": "structure",
-      "weeks": [
-        {
-          "week": 11,
-          "topic": "4/13 Mechanistic Interpretability & Alignment",
-          "desc": "Mapping the neural circuitry and steering behavior.",
-          "readings": [
-            { "title": "Training models to follow instructions (InstructGPT)", "author": "Ouyang et al. (2022)" },
-            { "title": "Direct Preference Optimization (DPO)", "author": "Rafailov et al. (2023)" },
-            { "title": "Toy Models of Superposition", "author": "Elhage et al. (Anthropic)" }
-          ]
-        }
-      ]
-    },
-    {
-      "part": "Part VI: Projects",
-      "theme": "project",
-      "weeks": [
-        {
-          "week": 12,
-          "topic": "4/20 Project Proposals & Critique",
-          "desc": "Feasibility analysis and literature review.",
-          "readings": [{ "title": "Student Selected Literature", "author": "N/A" }]
-        },
-        {
-          "week": 13,
-          "topic": "4/27 Implementation Lab",
-          "desc": "Hackathon week. Focus on 'The Engineering of Reliability'.",
-          "readings": [{ "title": "No Assigned Reading", "author": "-" }]
-        },
-        {
-          "week": 14,
-          "topic": "5/4 Final Presentations",
-          "desc": "Conference-style presentations.",
-          "readings": [{ "title": "Final Reports Due", "author": "-" }]
-        }
       ]
     }
   ]
